@@ -1,0 +1,159 @@
+*{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: bold;
+
+        margin: 0;
+        
+      }
+.checked {
+    color: orange;
+}
+
+
+
+/* nav styles */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 85px;
+}
+.nav-icon ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* banner styles */
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-details{
+    width: 60%;
+}
+.banner-text{
+    font-size: 16px;
+}
+.banner-camera-img{
+    background-image: url("images/Circle\ design.svg");
+}
+.banner-btn{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: #e02c6d;
+    border: 0;
+}
+
+/* logo styles */
+.logo-container{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.logo-img{
+    margin-right: 50px;
+}
+
+/* camera-collection-conatiner styles */
+.camera-collection-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #ebebeb;
+    width: 80%;
+    margin: auto;
+}
+.collection{
+    box-shadow: 3px 3px gainsboro;
+    margin: 30px;
+    width: 330px;
+    background-color: #f8f8f8;
+    
+}
+.collection-img{
+    text-align: center;
+    padding: 15px;
+}
+/* .collection h3,p,p{
+    padding-left: 10px;
+} */
+.collection h3{
+    padding-left: 10px;
+}
+.collection h3{
+    font-size: 28px;
+}
+.collection-price{
+    font-size: 26px;
+    font-weight: normal;
+    color: black;
+    padding-left: 10px;
+}
+.collection-text{
+    color: gray;
+    padding-left: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.see-more{
+    color: #e02c6d;
+    text-align: right;
+    font-size: 15px;
+    margin: 60px 150px 80px 0;
+}
+
+/* feature styles */
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 80px;
+    
+}
+.feature-details h2{
+    text-align: left;
+}
+.feature-text{
+    color: gray;
+    text-align: left;
+}
+.feature-btn{
+    background-color: #e02c6d;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
+
+/* footer styles */
+.footer-container{
+    background-color: #0a0e26;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 80px;
+}
+.footer-icon{
+    margin-top:20px;
+   
+}
+.fa-brands{
+    margin-right: 20px;
+    margin-bottom: 40px;
+    
+}
