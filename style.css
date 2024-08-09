@@ -43,6 +43,8 @@ li>a{
 }
 .banner-text{
     font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .banner-camera-img{
     background-image: url("images/Circle\ design.svg");
@@ -127,10 +129,12 @@ h2{
 }
 .feature-details h2{
     text-align: left;
+    margin-bottom: 20px;
 }
 .feature-text{
     color: gray;
     text-align: left;
+    margin-bottom: 20px;
 }
 .feature-btn{
     background-color: #e02c6d;
